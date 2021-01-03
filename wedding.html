@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&family=Teko&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/wedding.css">
+
+    <style>
+    body,h1 {font-family: "Montserrat", sans-serif}
+    img {margin-bottom: -7px}
+    .w3-row-padding img {margin-bottom: 12px}
+    </style>
+
+    <title>Wedding</title>
+  </head>
+  <body>
+    <!-- Banner and Nav -->
+    <div class="navBar">
+      <div></div>
+      <div class="title-container">
+          <div class="title"><a href="index.html" style="text-decoration: none;"><h1>AMRIT GURUNG</h1></a></div>
+      </div>
+      <div class="navIcon-container">
+        <div class="navIcon"><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span></div>
+      </div>
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Motion</a>
+        <a href="index.html#stills">Still</a>
+        <a href="contact.html">Info</a>
+        <a href="contact.html#contact">Contact</a>
+    </div>
+
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+
+    <!-- Photo Grid -->
+    <div class="w3-row-padding" id="myGrid" style="margin-bottom:128px">
+      <div class="w3-third">
+        <img src="img/still/1_wedding/1.jpg" style="width:100%">
+        <img src="img/still/1_wedding/4.jpg" style="width:100%">
+        <img src="img/still/1_wedding/7.jpg" style="width:100%">
+        <img src="img/still/1_wedding/10.jpg" style="width:100%">
+        <img src="img/still/1_wedding/13.jpg" style="width:100%">
+        <img src="img/still/1_wedding/15.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-third">
+        <img src="img/still/1_wedding/2.jpg" style="width:100%">
+        <img src="img/still/1_wedding/5.jpg" style="width:100%">
+        <img src="img/still/1_wedding/8.jpg" style="width:100%">
+        <img src="img/still/1_wedding/11.jpg" style="width:100%">
+        <img src="img/still/1_wedding/14.jpg" style="width:100%">
+        <img src="img/still/1_wedding/16.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-third">
+        <img src="img/still/1_wedding/3.jpg" style="width:100%">
+        <img src="img/still/1_wedding/6.jpg" style="width:100%">
+        <img src="img/still/1_wedding/9.jpg" style="width:100%">
+        <img src="img/still/1_wedding/12.jpg" style="width:100%">
+      </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:10px">
+      <a href="https://www.facebook.com/AmritGurungPhotography" style="text-decoration: none;"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+      <a href="https://www.instagram.com/amritgurung7/?hl=en" style="text-decoration: none;"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+      <a href="https://www.youtube.com/channel/UCeJTqv3bk1cTtKQLzvcOqKw/videos" style="text-decoration: none;"><i class="fa fa-youtube w3-hover-opacity"></i><a/>
+      <p class="w3-medium">@AmritGurungFilms</p>
+    </footer>
+
+  </body>
+</html>
