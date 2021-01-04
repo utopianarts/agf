@@ -124,22 +124,34 @@ h1 {
    margin-bottom: 5px;
  }
 
- @media screen and (min-width: 360px) {
-   .profile, .info, .container2 {
+  @media screen and (min-width: 360px) {
+   .info, .container2 {
      width: 80%;
+   }
+
+   .profile {
+     width: 50%;
    }
 
  }
 
  @media screen and (min-width: 768px) {
-   .profile, .info,  .container2 {
-     width: 40%;
+   .info,  .container2 {
+     width: 50%;
+   }
+
+   .profile {
+     width: 30%;
    }
  }
 
  @media screen and (min-width: 980px) {
-   .profile, .info,  .container2 {
+   .info,  .container2 {
      width: 30%;
+   }
+
+   .profile {
+     width: 20%;
    }
  }
 
