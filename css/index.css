@@ -247,6 +247,10 @@ img {
  .still{
    flex: 1 1 50%;
  }
+ 
+ .still-text h2, .middle h2 {
+  font-size: 10px;
+ }
 
 }
 
