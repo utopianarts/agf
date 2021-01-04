@@ -236,7 +236,6 @@ img {
 
 .still-text h2, .middle h2 {
   color: black;
-  font-size: 16px;
   padding: 16px 32px;
   padding: 4px;
   border-style: double;
@@ -258,10 +257,20 @@ img {
  .still {
    flex: 1 1 33.33%;
  }
+ 
+ .still-text h2, .middle h2 {
+   font-size: 16px;
+ }
+ 
 }
 
 @media screen and (min-width: 980px) {
  .stil {
    flex: 1 1 33.33%;
  }
+ 
+ .still-text h2, .middle h2 {
+  font-size: 16px;
+ }
+ 
 }
