@@ -10,7 +10,11 @@ function submitForm(e) {
   let email = document.querySelector(".email").value;
   let message = document.querySelector(".subject").value;
 
-  sendEmail(fname, lname, phone, email, message);
+  if (fname && lname && phone && email && message) {
+    sendEmail(fname, lname, phone, email, message);
+  } else {
+    alert("Please fill up all the fields.")
+  }
 
   document.querySelector(".contact-form").reset();
 
@@ -21,7 +25,7 @@ function sendEmail(fname, lname, phone, email, message) {
       Host: "smtp.gmail.com",
       Username: "amritgurungfilms@gmail.com",
       Password: "ylxincwdaoeddejg",
-      To: "rockyhill010@aim.com",
+      To: "mayhem_46@hotmail.com",
       From: "amritgurungfilms@gmail.com",
       Subject: `${fname} ${lname} send you a message`,
       Body: `Name: ${fname} ${lname} <br/> Phone: ${phone} </br> Email: ${email} </br> message: ${message}`
