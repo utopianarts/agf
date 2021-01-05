@@ -250,10 +250,6 @@ img {
   font-size: 10px;
  }
  
- .motion-title {
-  margin-right: auto;
- }
-
 }
 
 @media screen and (min-width: 768px) {
