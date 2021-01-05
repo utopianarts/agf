@@ -171,7 +171,6 @@ img {
   font-family: 'Redressed', cursive;
   font-family: 'Teko', sans-serif;
   margin-top: -30px;
-  margin-right: 45px;
   margin-bottom: 15px;
   text-align: center;
   font-weight: bolder;
@@ -250,6 +249,10 @@ img {
  .still-text h2, .middle h2 {
   font-size: 10px;
  }
+ 
+ .motion-title {
+  margin-right: auto;
+ }
 
 }
 
@@ -262,6 +265,10 @@ img {
    font-size: 16px;
  }
  
+ .motion-title {
+  margin-right: 45px;
+ }
+ 
 }
 
 @media screen and (min-width: 980px) {
@@ -271,6 +278,10 @@ img {
  
  .still-text h2, .middle h2 {
   font-size: 16px;
+ }
+ 
+ .motion-title {
+  margin-right: 45px;
  }
  
 }
